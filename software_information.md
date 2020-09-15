@@ -1,4 +1,6 @@
-## Software
+# Software
+
+## Software RNA-seq pipeline uses for data processing
 
 ### Ubuntu 16.04
 
@@ -31,3 +33,16 @@ Samtools flagstats are calculated using [Samtools 1.9](https://github.com/samtoo
 ### bedGraphToBigWig and bedSort
 
 [bedGraphToBigWig kent source version 371](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/bedGraphToBigWig) and [bedSort](http://hgdownload.soe.ucsc.edu/admin/exe/linux.x86_64/bedSort) (no version information available) are used in signal track generation. Source code is downloadable [here](http://hgdownload.soe.ucsc.edu/admin/exe/userApps.v371.src.tgz).
+
+## Software we are using to run the RNA-seq pipeline
+
+### Cromwell
+
+Scientific workflow engine [Cromwell](https://github.com/broadinstitute/cromwell) is used execute workflows written in WDL. Behind the scenes Cromwell takes care of spinning up machines that process the data, and moving the needed data between storage and machines.
+
+### Caper
+
+Tool developed by [Jin Lee](https://github.com/leepc12) at ENCODE-DCC. [Caper](https://github.com/ENCODE-DCC/caper) provides a simple interface to Cromwell, and takes care of most of the configuration for you.
+
+### Croo
+Tool developed by [Jin Lee](https://github.com/leepc12) at ENCODE-DCC. [Croo](https://github.com/ENCODE-DCC/croo) simplifies Cromwell output directory structure, and makes it easy to look at the pipeline outputs, and visualize the results. 

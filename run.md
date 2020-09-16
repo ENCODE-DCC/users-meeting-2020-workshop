@@ -30,7 +30,7 @@ Eventually your workflow will move in to state `Succeeded`:
 ```bash
 15df0113-8260-45b7-ac33-5ec248136ad6    Succeeded       rna     workshop_testing_otto   otaljo_gmail_com        None    2020-09-16T10:20:14.673Z
 ```
-Eventually 
+
 ## How to organize/visualize outputs
 
 Once your workflow's `status` is `Succeeded` then download `metadata.json` from the server.

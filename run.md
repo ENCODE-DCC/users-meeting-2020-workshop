@@ -1,9 +1,9 @@
 ## How to submit a pipeline
 
-To submit an RNA-seq pipeline with test sample.
+To submit an RNA-seq pipeline with data from ENCODE experiment [ENCSR059VBF](https://www.encodeproject.org/experiments/ENCSR059VBF/).
 ```bash
 $ WDL=https://raw.githubusercontent.com/ENCODE-DCC/rna-seq-pipeline/master/rna-seq-pipeline.wdl
-$ INPUT=https://raw.githubusercontent.com/ENCODE-DCC/rna-seq-pipeline/master/test/test_workflow/PE_unstranded_input.json
+$ INPUT=gs://encode-workshop-2020/input_json/ENCSR059VBF_workshop_input.json
 $ caper submit $WDL -i $INPUT -s ANY_LABEL_YOU_LIKE
 ```
 

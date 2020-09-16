@@ -14,11 +14,23 @@ You will see few log messages, and on the last line a message that tells you the
 
 ## How to monitor it
 
-Check if your job is submitted. Find workflow's ID in the first column.
+See that  your workflow is submitted. Find workflow's ID in the first column.
 ```bash
 $ caper list | grep $USER
 ```
 
+After a moment your workflow will show up in state `Running`:
+```bash
+15df0113-8260-45b7-ac33-5ec248136ad6    Running rna     workshop_testing_otto   otaljo_gmail_com        None    2020-09-16T10:20:14.673Z
+```
+
+The run will take roughly 40 minutes (meanwhile please sit back and enjoy our presentation).
+
+Eventually your workflow will move in to state `Succeeded`:
+```bash
+15df0113-8260-45b7-ac33-5ec248136ad6    Succeeded       rna     workshop_testing_otto   otaljo_gmail_com        None    2020-09-16T10:20:14.673Z
+```
+Eventually 
 ## How to organize/visualize outputs
 
 Once your workflow's `status` is `Succeeded` then download `metadata.json` from the server.

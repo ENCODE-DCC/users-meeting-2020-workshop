@@ -7,6 +7,11 @@ $ INPUT=gs://encode-workshop-2020/input_json/ENCSR059VBF_workshop_input.json
 $ caper submit $WDL -i $INPUT -s ANY_LABEL_YOU_LIKE
 ```
 
+You will see few log messages, and on the last line a message that tells you the workflow has been submitted. The message should be similar to this (timestamp and id will be different):
+```bash
+2020-09-16 10:20:14,677|caper.caper_client|INFO| submit: {'id': '15df0113-8260-45b7-ac33-5ec248136ad6', 'status': 'Submitted'}
+```
+
 ## How to monitor it
 
 Check if your job is submitted. Find workflow's ID in the first column.

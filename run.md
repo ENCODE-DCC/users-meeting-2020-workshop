@@ -41,7 +41,7 @@ $ caper metadata YOUR_WORKFLOW_ID > metadata.json
 Use Croo with `metadata.json` to make an HTML report with file table, browser tracks and task graph.
 ```bash
 $ OUTPUT_DIR=gs://encode-workshop-2020/croo/$USER
-$ croo metadata.json --out-dir $OUTPUT_DIR --ucsc-genome-db hg38 --public-gcs
+$ croo metadata.json --out-dir $OUTPUT_DIR --ucsc-genome-db mm10 --public-gcs
 ```
 
 Click [this](https://console.cloud.google.com/storage/browser/encode-workshop-2020/croo?project=encode-workshop) to open up Google Cloud Storage Console. Find a directory named with your username. Click on an HTML file.

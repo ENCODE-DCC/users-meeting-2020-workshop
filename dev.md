@@ -17,4 +17,7 @@ Click on [Metadata](https://console.cloud.google.com/compute/metadata?project=en
 
 Click on [IAM](https://console.cloud.google.com/iam-admin/iam?orgonly=true&project=encode-workshop&supportedpurview=organizationId) and click on the `ADD` button on top right.
 
-Add users' Google account or email address associated with it. Give them `OS Login` role.
+Add users' Google account or email address associated with it. Give them the followings roles:
+- `OS Login`
+- `Service Account User`
+

@@ -2,7 +2,7 @@
 
 Video of these instructions can be found [here](https://drive.google.com/file/d/1jXdqKlLdWXNf67yy5GtJbWSkEhBpNtOG/view).
 
-To submit an RNA-seq pipeline with data from ENCODE experiment [ENCSR059VBF](https://www.encodeproject.org/experiments/ENCSR059VBF/).
+To submit an RNA-seq pipeline with data from ENCODE experiment [ENCSR059VBF](https://www.encodeproject.org/experiments/ENCSR059VBF/). The data is part of the dataset used in a [paper](https://www.nature.com/articles/s41586-020-2536-x) published in the Nature.
 ```bash
 $ WDL=https://raw.githubusercontent.com/ENCODE-DCC/rna-seq-pipeline/master/rna-seq-pipeline.wdl
 $ INPUT=gs://encode-workshop-2020/input_json/ENCSR059VBF_workshop_input.json

@@ -1,6 +1,6 @@
 ## Creating a Caper server instance
 
-Follow [this instrution](https://github.com/ENCODE-DCC/caper/tree/master/scripts/gcp_caper_server) to create a Caper server instance.
+Follow [these instructions](https://github.com/ENCODE-DCC/caper/tree/master/scripts/gcp_caper_server) to create a Caper server instance.
 
 ```bash
 $ SERVICE_ACCOUNT_KEY_JSON=[YOUR_KEY_JSON_FILE]

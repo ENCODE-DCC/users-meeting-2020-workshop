@@ -1,5 +1,7 @@
 ## How to submit a pipeline
 
+Video of these instructions can be found [here](https://drive.google.com/file/d/1jXdqKlLdWXNf67yy5GtJbWSkEhBpNtOG/view).
+
 To submit an RNA-seq pipeline with data from ENCODE experiment [ENCSR059VBF](https://www.encodeproject.org/experiments/ENCSR059VBF/).
 ```bash
 $ WDL=https://raw.githubusercontent.com/ENCODE-DCC/rna-seq-pipeline/master/rna-seq-pipeline.wdl
@@ -13,6 +15,8 @@ You will see few log messages, and on the last line a message that tells you the
 ```
 
 ## How to monitor it
+
+Video of these instructions can be found [here](https://drive.google.com/file/d/1_AkNthqUHpaLOs5hDtPm7B0Yx6iNDfFp/view).
 
 See that  your workflow is submitted. Find workflow's ID in the first column. In the following command `caper list` shows all the workflows submitted to the server. With `grep $USER` we use a standard unix tool `grep` to find the line that contains your username.
 ```bash
@@ -32,6 +36,8 @@ Eventually your workflow will move in to state `Succeeded`:
 ```
 
 ## How to organize/visualize outputs
+
+Video of these instructions can be found [here](https://drive.google.com/file/d/1Jfm55PMhnZTm70H2c-lxEJ9KlMecipja/view?usp=sharing).
 
 Once your workflow's `status` is `Succeeded` then download `metadata.json` from the server.
 ```bash

@@ -14,7 +14,7 @@ You will see few log messages, and on the last line a message that tells you the
 
 ## How to monitor it
 
-See that  your workflow is submitted. Find workflow's ID in the first column.
+See that  your workflow is submitted. Find workflow's ID in the first column. In the following command `caper list` shows all the workflows submitted to the server. With `grep $USER` we use a standard unix tool `grep` to find the line that contains your username.
 ```bash
 $ caper list | grep $USER
 ```

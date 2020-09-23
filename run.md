@@ -45,3 +45,4 @@ $ croo metadata.json --out-dir $OUTPUT_DIR --ucsc-genome-db mm10 --public-gcs
 ```
 
 Click [this](https://console.cloud.google.com/storage/browser/encode-workshop-2020/croo?project=encode-workshop) to open up Google Cloud Storage Console. Find a directory named with your username. Click on the HTML file.
+

@@ -12,7 +12,7 @@ Additional infomation about software used in this workshop can be found [here](s
 
 ### Slides:
 
-Presentation slides for the short introduction can be found [here](https://drive.google.com/file/d/1gXV1TyPpUdk7Gl4X371vLo0wgp_aLfUx/view). Presentation slides for the main pipeline presentation can be found [here](https://drive.google.com/file/d/1NoZOqnPjmpvZYB0SbHzMKZgOgTKuz4P8/view).
+Presentation slides can be found [here](https://drive.google.com/file/d/1NoZOqnPjmpvZYB0SbHzMKZgOgTKuz4P8/view).
 
 ### Setup your own server:
 

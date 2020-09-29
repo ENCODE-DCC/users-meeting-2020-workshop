@@ -8,7 +8,7 @@ Submit a workflow.
 caper submit https://raw.githubusercontent.com/ENCODE-DCC/rna-seq-pipeline/master/rna-seq-pipeline.wdl -i gs://encode-workshop-2020/input_json/ENCSR059VBF_workshop_input.json -s ANY_LABEL_YOU_LIKE
 ```
 
-Check status of your workflow:
+Check status of your workflow. Find a workflow ID in the first column of the list.
 ```bash
 caper list | grep $USER
 ```

@@ -4,9 +4,9 @@ Video of these instructions can be found [here](https://drive.google.com/file/d/
 
 To submit an RNA-seq pipeline with data from ENCODE experiment [ENCSR059VBF](https://www.encodeproject.org/experiments/ENCSR059VBF/). The data is part of the dataset used in a [paper](https://www.nature.com/articles/s41586-020-2536-x) published in the Nature.
 ```bash
-$ WDL=https://raw.githubusercontent.com/ENCODE-DCC/rna-seq-pipeline/master/rna-seq-pipeline.wdl
-$ INPUT=gs://encode-workshop-2020/input_json/ENCSR059VBF_workshop_input.json
-$ caper submit $WDL -i $INPUT -s ANY_LABEL_YOU_LIKE
+WDL=https://raw.githubusercontent.com/ENCODE-DCC/rna-seq-pipeline/master/rna-seq-pipeline.wdl
+INPUT=gs://encode-workshop-2020/input_json/ENCSR059VBF_workshop_input.json
+caper submit $WDL -i $INPUT -s ANY_LABEL_YOU_LIKE
 ```
 
 You will see few log messages, and on the last line a message that tells you the workflow has been submitted. The message should be similar to this (timestamp and id will be different):

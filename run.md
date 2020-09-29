@@ -50,5 +50,5 @@ OUTPUT_DIR=gs://encode-workshop-2020/croo/$USER
 croo metadata.json --out-dir $OUTPUT_DIR --ucsc-genome-db mm10 --public-gcs
 ```
 
-Click [this](https://console.cloud.google.com/storage/browser/encode-workshop-2020/croo?project=encode-workshop) to open up Google Cloud Storage Console. Find a directory named with your username. Click on the HTML file. On the following page clicking `Public URL` or `Authenticated URL` will open the croo output report.
+Click [this](https://console.cloud.google.com/storage/browser/encode-workshop-2020/croo?project=encode-workshop) to open up Google Cloud Storage Console. Find a directory named with your username (to find out what your username run `echo $USER` on the caper server). Click on the HTML file. On the following page clicking `Public URL` or `Authenticated URL` will open the croo output report.
 

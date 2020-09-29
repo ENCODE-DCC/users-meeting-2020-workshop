@@ -1,3 +1,5 @@
+Click [this](https://ssh.cloud.google.com/cloudshell/editor?shellonly=true) to open Google Cloud Shell.
+
 Login on the instance.
 ```bash
 gcloud beta compute ssh --zone us-central1-a encode-workshop-2020-caper-server --project encode-workshop

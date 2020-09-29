@@ -20,7 +20,7 @@ Video of these instructions can be found [here](https://drive.google.com/file/d/
 
 See that  your workflow is submitted. Find workflow's ID in the first column. In the following command `caper list` shows all the workflows submitted to the server. With `grep $USER` we use a standard unix tool `grep` to find the line that contains your username.
 ```bash
-$ caper list | grep $USER
+caper list | grep $USER
 ```
 
 After a moment your workflow will show up in state `Running`:
@@ -41,13 +41,13 @@ Video of these instructions can be found [here](https://drive.google.com/file/d/
 
 Once your workflow's `status` is `Succeeded` then download `metadata.json` from the server.
 ```bash
-$ caper metadata YOUR_WORKFLOW_ID > metadata.json
+caper metadata YOUR_WORKFLOW_ID > metadata.json
 ```
 
 Use Croo with `metadata.json` to make an HTML report with file table, browser tracks and task graph.
 ```bash
-$ OUTPUT_DIR=gs://encode-workshop-2020/croo/$USER
-$ croo metadata.json --out-dir $OUTPUT_DIR --ucsc-genome-db mm10 --public-gcs
+OUTPUT_DIR=gs://encode-workshop-2020/croo/$USER
+croo metadata.json --out-dir $OUTPUT_DIR --ucsc-genome-db mm10 --public-gcs
 ```
 
 Click [this](https://console.cloud.google.com/storage/browser/encode-workshop-2020/croo?project=encode-workshop) to open up Google Cloud Storage Console. Find a directory named with your username. Click on the HTML file. On the following page clicking `Public URL` or `Authenticated URL` will open the croo output report.

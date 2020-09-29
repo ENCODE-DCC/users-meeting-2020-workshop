@@ -17,3 +17,8 @@ Presentation slides can be found [here](https://drive.google.com/file/d/1NoZOqnP
 ### Setup your own server:
 
 Instructions on how to replicate the workshop server setup on your own project can be found [here](dev.md).
+
+### Survey:
+
+We greatly appreciate feedback. Please fill out [this](https://forms.gle/C39mJvQHoTJT6LGM7) survey after the workshop.
+

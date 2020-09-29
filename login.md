@@ -12,5 +12,5 @@ $ gcloud beta compute ssh --zone us-central1-a encode-workshop-2020-caper-server
 ```
 
 The system may ask for authorization to use your credentials. In that case click `Authorize`. 
-In case you run into authentication related errors, please double check that you are using the account you registered to the workshop with.
+In case you run into authentication related errors, please double check that you are using the account you registered to the workshop with and repeat the login process from the beginning.
 If your connection to times out, you should repeat the login steps to get back into the cloudshell.

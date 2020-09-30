@@ -3,9 +3,14 @@
 Video of these instructions can be found [here](https://drive.google.com/file/d/1jXdqKlLdWXNf67yy5GtJbWSkEhBpNtOG/view).
 
 To submit an RNA-seq pipeline with data from ENCODE experiment [ENCSR059VBF](https://www.encodeproject.org/experiments/ENCSR059VBF/). The data is part of the dataset used in a [paper](https://www.nature.com/articles/s41586-020-2536-x) published in the Nature.
+Run the following commands on the cloudshell window where you have logged in to the caper server.
 ```bash
 WDL=https://raw.githubusercontent.com/ENCODE-DCC/rna-seq-pipeline/master/rna-seq-pipeline.wdl
+```
+```bash
 INPUT=gs://encode-workshop-2020/input_json/ENCSR059VBF_workshop_input.json
+```
+```bash
 caper submit $WDL -i $INPUT -s ANY_LABEL_YOU_LIKE
 ```
 

@@ -20,5 +20,5 @@ Instructions on how to replicate the workshop server setup on your own project c
 
 ### Survey:
 
-We greatly appreciate feedback. Please fill out [this](https://forms.gle/C39mJvQHoTJT6LGM7) survey after the workshop.
+We greatly appreciate any feedback. Please fill out [this](https://forms.gle/iw37LuwYkfyZUwS49) survey after the workshop and help us improve.
 
